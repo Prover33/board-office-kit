@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp / cache
+*.tmp
+*.temp
+_check.py
+
+# Sensitive (never commit real config)
+agents/board-office.md.local
+.env
+.env.local

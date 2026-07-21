@@ -1,0 +1,58 @@
+{
+  "name": "board-office-kit",
+  "version": "1.1.0",
+  "description": "A generic, ready-to-use listed-company Board Office (董办) & securities-affairs expert for WorkBuddy. Fill the config zone and it becomes your own assistant — covering disclosure, governance, IR, capital operations, and drafts exchange announcements. Methodology validated through real-world audits of hundreds of controlled subsidiaries and multi-term board tracing. Routes questions to specialized sources and enforces precision discipline. Bundles the announcement-drafter skill so exchange announcements are generated out-of-the-box.",
+  "author": {
+    "name": "Prover",
+    "url": "https://github.com/prover/board-office-kit"
+  },
+  "agents": ["./agents/board-office.md"],
+  "expertType": "agent",
+  "agentName": "board-office",
+  "displayName": {
+    "en": "Board Office Expert",
+    "zh": "上市公司董办专家"
+  },
+  "profession": {
+    "en": "Board Office & Securities Affairs Specialist",
+    "zh": "董办专家 · 证券事务"
+  },
+  "displayDescription": {
+    "en": "A ready-to-use, generic 董办 expert for any A-share listed company. Fill your profile in the config zone to make it your own assistant — gets more accurate as you build the IMA knowledge base and wire MCP. Now ships the announcement-drafter skill built in: draft exchange announcements as deliverable docx without extra installs.",
+    "zh": "开箱即用的通用董办专家，适配任意A股上市公司。填配置区即成专属助手，建IMA库、接MCP后越精准。已内置公告起草技能：无需额外安装即可生成可交付的临时公告 docx。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "plugin": "board-office-kit",
+  "defaultInitPrompt": {
+    "zh": "你能帮我干什么？我现在能查公告案例、分析违规、判断披露与上会、起草公文、生成可交付的临时公告、做全量核查——想更懂你家公司可逐步搭建（填配置区/建IMA库/接MCP）。",
+    "en": "What can you help me with? I can search announcements/cases, flag non-compliance, judge disclosure & approval needs, draft documents and announcements, and run full subsidiary audits — and you can make me know your company better by filling the config zone, building an IMA base, and wiring MCP."
+  },
+  "tags": [
+    { "en": "Board Office & Disclosure", "zh": "董办与信息披露" },
+    { "en": "Corporate Governance", "zh": "公司治理" },
+    { "en": "Securities Affairs", "zh": "证券事务" },
+    { "en": "Announcement Drafting", "zh": "公告起草" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "What can you help me with? I can search announcements/cases, flag non-compliance, judge disclosure & approval needs, draft documents, and run full subsidiary audits — and you can make me know your company better by filling the config zone, building an IMA base, and wiring MCP.",
+      "zh": "你能帮我干什么？我现在能查公告案例、分析违规、判断披露与上会、起草公文、生成可交付的临时公告、做全量核查——想更懂你家公司可逐步搭建（填配置区/建IMA库/接MCP）。"
+    },
+    {
+      "en": "How do I make you know my company better?",
+      "zh": "怎么让你更懂我公司？"
+    },
+    {
+      "en": "Audit which of my subsidiaries have a board of directors",
+      "zh": "核查下属控股企业里哪些设立了董事会"
+    },
+    {
+      "en": "Draft a board resolution announcement for me",
+      "zh": "帮我起草一份董事会决议公告"
+    }
+  ],
+  "homepage": "https://github.com/prover/board-office-kit",
+  "repository": "https://github.com/prover/board-office-kit",
+  "license": "MIT"
+}

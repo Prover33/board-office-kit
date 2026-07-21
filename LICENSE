@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2026 board-office-kit authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+数据合规与免责声明（补充条款）：
+
+1. 本脚手架仅用于辅助信息检索与归集，不构成任何法律、审计、证券或信息披露意见。
+2. 使用者据此生成的任何正式披露文件、法律意见，均须经目标公司内部控制合规审核及具备资质的外部律师确认。
+3. 通过本脚手架接入的工商、行情、公告等数据，须严格遵守各数据源平台的服务条款（ToS）；
+   使用者须自行获得相应数据源的合法使用授权。
+4. 使用者填入 `agents/board-office.md`【配置区】的公司信息，须确保不违反保密义务、
+   不构成内幕信息的不当泄露；本脚手架作者不对使用者的数据合规承担任何责任。

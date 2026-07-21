@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="860" viewBox="0 0 920 860" font-family="-apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+  <!-- header -->
+  <rect width="920" height="56" fill="#0b2545"/>
+  <circle cx="34" cy="28" r="14" fill="#13b3a6"/>
+  <text x="62" y="34" fill="#ffffff" font-size="17" font-weight="600">上市公司董办专家</text>
+
+  <!-- chat background -->
+  <rect y="56" width="920" height="804" fill="#f0f3f7"/>
+
+  <!-- user bubble 1 -->
+  <rect x="620" y="88" width="252" height="46" rx="18" fill="#134e6f"/>
+  <text x="642" y="116" fill="#ffffff" font-size="17">你能帮我干什么？</text>
+
+  <!-- expert bubble 1 -->
+  <circle cx="36" cy="186" r="14" fill="#13b3a6"/>
+  <rect x="60" y="150" width="772" height="288" rx="18" fill="#ffffff" stroke="#d7e0e8"/>
+  <g fill="#1a2233" font-size="15">
+    <text x="84" y="182">我是通用的董办专家，开箱即用。现在就能帮你：</text>
+    <text x="84" y="210">① 查 A 股公告 / 监管案例，并附原文链接</text>
+    <text x="84" y="238">② 分析某行为是否违规（附法规依据）</text>
+    <text x="84" y="266">③ 判断某事项要不要披露、上不上会</text>
+    <text x="84" y="294">④ 起草党委会议案 / 对交易所回函 / 公告骨架</text>
+    <text x="84" y="322">⑤ 对下属控股企业做全量核查台账</text>
+    <text x="84" y="358">想更懂你家公司，可逐步搭：填配置区 → 建 IMA 库 → 接 MCP。</text>
+    <text x="84" y="386">说个你手头的活，我直接干。</text>
+  </g>
+
+  <!-- user bubble 2 -->
+  <rect x="500" y="470" width="372" height="46" rx="18" fill="#134e6f"/>
+  <text x="522" y="498" fill="#ffffff" font-size="17">核查下属控股企业里哪些设立了董事会</text>
+
+  <!-- expert bubble 2 -- fuller output with mini-table -->
+  <circle cx="36" cy="556" r="14" fill="#13b3a6"/>
+  <rect x="60" y="520" width="772" height="260" rx="18" fill="#ffffff" stroke="#d7e0e8"/>
+  <g fill="#1a2233" font-size="14">
+    <text x="84" y="548" font-weight="600">按批量核查纪律逐家核验完成（示例，共 318 家）：</text>
+
+    <!-- mini table header -->
+    <rect x="84" y="562" width="720" height="24" rx="4" fill="#e8edf2"/>
+    <text x="92" y="579" font-size="12" fill="#4a5568" font-weight="600">统计</text>
+    <text x="200" y="579" font-size="12" fill="#4a5568" font-weight="600">设董事会</text>
+    <text x="320" y="579" font-size="12" fill="#4a5568" font-weight="600">执行董事制</text>
+    <text x="440" y="579" font-size="12" fill="#4a5568" font-weight="600">数据缺失</text>
+    <text x="560" y="579" font-size="12" fill="#4a5568" font-weight="600">核查源</text>
+
+    <!-- mini table row -->
+    <text x="92" y="603" font-size="12">全量 318 家</text>
+    <text x="200" y="603" font-size="12" fill="#c53030" font-weight="600">2 家</text>
+    <text x="320" y="603" font-size="12" fill="#2b6cb0">286 家</text>
+    <text x="440" y="603" font-size="12" fill="#d69e2e">30 家</text>
+    <text x="560" y="603" font-size="10" fill="#718096">企查查+天眼查+公告交叉</text>
+
+    <text x="84" y="638">设董事会企业：</text>
+    <text x="84" y="658" font-size="13" fill="#c53030">• 苏南瑞祥智能科技（董事长+董事共 5 人）</text>
+    <text x="84" y="678" font-size="13" fill="#c53030">• 浙北华翊通航装备（董事长+董事共 3 人）</text>
+
+    <text x="84" y="708" font-size="13" fill="#718096">完整台账已汇入 CSV，每条可溯源到具体公告/工商页。</text>
+    <text x="84" y="736" font-size="13" fill="#718096">⚠️ 数据缺失的 30 家待补充核验（工商信息不全），不推断为"未设立"。</text>
+  </g>
+
+  <text x="60" y="820" fill="#8aa0b4" font-size="13">* 演示为通用模式；填配置区 / 接企查查天眼查后输出更精准。</text>
+</svg>
