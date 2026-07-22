@@ -1,6 +1,6 @@
 {
   "name": "board-office-kit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A generic, ready-to-use listed-company Board Office (董办) & securities-affairs expert for WorkBuddy. Fill the config zone and it becomes your own assistant — covering disclosure, governance, IR, capital operations, and drafts exchange announcements. Methodology validated through real-world audits of hundreds of controlled subsidiaries and multi-term board tracing. Routes questions to specialized sources and enforces precision discipline. Bundles the announcement-drafter skill so exchange announcements are generated out-of-the-box.",
   "author": {
     "name": "Prover",
